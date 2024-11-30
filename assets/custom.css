@@ -1,0 +1,164 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    color: #2d3436;
+}
+
+.dashboard-content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.navbar-custom {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #4361ee;
+    margin-bottom: 0;
+}
+
+.nav-link {
+    color: #64748b !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.2s;
+}
+
+.nav-link.active {
+    color: #4361ee !important;
+}
+
+.nav-link:hover {
+    color: #4361ee !important;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #2d3436;
+    font-weight: 500;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #4361ee;
+    color: white;
+    margin-right: 1rem;
+}
+
+.stat-label {
+    color: #64748b;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.stat-value {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.stat-change {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+}
+
+.stat-change.positive {
+    color: #10b981;
+}
+
+.chart-card {
+    border: none;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.card-header {
+    background: white;
+    border-bottom: 1px solid #f1f5f9;
+    padding: 1rem;
+}
+
+.card-header h5 {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.progress {
+    height: 8px;
+    background-color: #e2e8f0;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    background-color: #4361ee;
+    border-radius: 4px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    border-top: none;
+    border-bottom: 1px solid #f1f5f9;
+    color: #64748b;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+    color: #1e293b;
+}
+
+.btn-primary {
+    background-color: #4361ee;
+    border-color: #4361ee;
+}
+
+.btn-light {
+    background-color: #f8fafc;
+    border-color: #e2e8f0;
+    color: #64748b;
+}
+
+.btn-light:hover {
+    background-color: #f1f5f9;
+    border-color: #e2e8f0;
+    color: #1e293b;
+}
